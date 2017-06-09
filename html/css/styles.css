@@ -104,3 +104,7 @@ body {margin-bottom: 60px;
     display: inline-flex;
     width: 100%;}
 .user-footer a {/*border-color: #535353;*/}
+
+#map {
+    height: 276px;
+}

@@ -11,6 +11,7 @@
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
   </head>
   <body>
     <div class="main-container">
@@ -25,10 +26,14 @@
         <p>Inicio.</p>
       </div>
       
-      <!-- LOGIN REGISTER -->
-      <!--<div class="content" ng-include="'templates/bodyComponents/login-register.html'"></div>-->
+      <!-- Contenido aquí -->
       <div class="container">
+        <div>
+          <div id="map"></div>
+          <script type='text/javascript' src='map.js'></script>
 
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXTVMIHFTAvd7EoKDzadILzbxQQP6mVNE&callback=initMap" type="text/javascript" async defer></script>
+        </div>
       </div>
       <!-- FIN LOGIN REGISTER -->
 
