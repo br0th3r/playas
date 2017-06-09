@@ -1,0 +1,106 @@
+
+/*----------------------------------------------*\
+		$ILUBEACON_CMS
+\*----------------------------------------------*/
+/**
+* GENERAL
+* HEADER_PAGE
+* BODY_CONTENT
+* FOOTER
+* MENU
+* CONTENT_BODY
+*/
+
+/*----------------------------------------------*\
+		$GENERAL
+\*----------------------------------------------*/
+
+html {font-size: 14px;
+	position: relative;
+    min-height: 100%;}
+/*body {margin-bottom: 25px;
+    /*display: inline-table;}*/
+body {margin-bottom: 60px;
+    display: flex;}
+.main-container {/*display: flex;*/ display: inline-block;
+    width: 100%;}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+/*----------------------------------------------*\
+        $HEADER_PAGE
+\*----------------------------------------------*/
+
+/* logo */
+
+.main-header {background-color: #0078C9;
+    color: #fff;
+    border-bottom: 5px solid #FFD200;
+    display: flex;
+    margin-bottom: 10px;
+    /*z-index: 1030 !important;*/
+    z-index: 2 !important;
+    position: relative;
+    width: 100%}
+.main-header .row {width: 100%;}
+.main-header h1 a {/*background-color: #005A97;*/
+    background-color: #fff;
+    border: 2px solid;
+    color: #fff;
+    /*padding: 15px 0px;*/
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    height: 75px;
+}
+.main-header h1 a:hover,
+.main-header h1 a:focus {
+    border: 2px solid #003C64;
+    text-decoration: none;}
+.main-header h1 {font-size: 1.6em;
+    margin: 0;
+    display: inline-flex;
+    font-weight: bold;
+    padding: 0px;}
+.main-header h1 a img {max-height: 100%;
+    max-width: 100%;}
+
+.header-menu-bar {/*position: absolute; right: 140px; margin: 0; padding: 0;*/ 
+    margin-bottom: 0px; 
+    text-align: center;}
+.header-menu-bar a:hover,
+.header-menu-bar a:focus {background-color: #003C64;
+    text-decoration: none;}
+.header-menu-bar li {list-style: none;}
+.header-menu-bar>li>a {/*padding: 11px 15px; padding: 21px 30px;*/
+    padding: 21px 0px;
+    color: #fff;
+    border: 2px solid #0078C9;
+    text-decoration: none;
+    display: block;}
+.header-menu-bar>li>a:hover {border: 2px solid #003C64;}
+.header-menu-bar li a span {margin-left: 5px;
+    position: relative;
+    top: -4px;}
+.user-menu-body {    background-color: #fff;
+    border: 2px solid #0078C9;
+    width: 230px;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    position: absolute;
+    right: 0;
+    left: initial;}
+.user-header {padding: 10px 0;
+    background-color: #0078C9;}
+.user-header i {width: 100%;
+    text-align: center;
+    margin: 10px 0;}
+.user-header p {text-align: center;
+    margin: 0;}
+.user-footer {padding: 10px 0;
+    display: inline-flex;
+    width: 100%;}
+.user-footer a {/*border-color: #535353;*/}
