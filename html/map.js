@@ -49,7 +49,7 @@ function initMap() {
           var beach = beaches[i];
           console.log("Beach: "+beach[0]+" ("+beach[1]+","+beach[2]+"):"+beach[3]);
           var im = image;
-          im.url='file:///home/br0th3r/Playas/html/img/'+beach[4]+'.png';
+          im.url='img/'+beach[4]+'.png';
           var marker = new google.maps.Marker({
             position: {lat: beach[1], lng: beach[2]},
             map: map,
