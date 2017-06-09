@@ -106,5 +106,16 @@ body {margin-bottom: 60px;
 .user-footer a {/*border-color: #535353;*/}
 
 #map {
-    height: 276px;
+    height: 213px;
 }
+.beach-detail-menu {width: 100%;
+    margin: 5px 0px 10px;}
+.clima-div {width: 100%;
+        display: inline-block;}
+.sun-div img {width: 100%;}
+.grade-div {font-size: 4em;
+    text-align: center;}
+.wind-div {font-size: 2em;
+    text-align: center;}
+.flag-div{font-size: 1em;
+    text-align: center;}
