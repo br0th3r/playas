@@ -1,9 +1,8 @@
 var map;
-var pos_x = 36.7509;
-var pos_y = -3.8655;
+
 function initMap() {
     var myOptions = {
-        zoom:6,
+        zoom:zoom,
         center:new google.maps.LatLng(pos_x, pos_y),
         mapTypeId: google.maps.MapTypeId.SATELLITE
     };
